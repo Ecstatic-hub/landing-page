@@ -1,0 +1,75 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 30px 10%;
+}
+
+header {
+  background-color: #030000;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: black;
+}
+
+header .para {
+  color: #8d7474;
+  float: left;
+  text-transform: uppercase;
+}
+
+header li {
+  float: right;
+}
+
+header nav {
+  width: 100%;
+  height: 75%;
+  line-height: 75px;
+  padding: 0px 100px;
+  position: fixed;
+  z-index: 1;
+}
+
+header nav ul li a {
+  color: #8d7474;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 32px;
+}
+
+header na ul li a:hover {
+  color: red;
+}
+
+body {
+  background-color: #080000;
+}
+
+body .dey {
+  color: red;
+  -webkit-text-size-adjust: 64px;
+     -moz-text-size-adjust: 64px;
+      -ms-text-size-adjust: 64px;
+          text-size-adjust: 64px;
+}
+
+body .paragraph {
+  color: #8d7474;
+}
+/*# sourceMappingURL=index.css.map */
